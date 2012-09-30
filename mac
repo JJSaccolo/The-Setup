@@ -56,4 +56,4 @@ echo -n "Your git name: "
   git config --global user.name
 echo -n "Your git email: "
   git config --global user.email
-echo "Change these with \ngit config --global user.name \"Your Name\"' \ngit config --global user.email your@email.com"
+echo "Change these with \ngit config --global user.name \"Your Name\" \ngit config --global user.email your@email.com"
