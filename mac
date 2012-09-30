@@ -14,7 +14,7 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
-zsh < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
+zsh < <(curl -s https://raw.github.com/MarcoSero/The-Setup/master/ruby)
 
 echo "Installing Homebrew, a good OS X package manager ..."
   ruby <(curl -fsS https://raw.github.com/mxcl/homebrew/go)
@@ -26,8 +26,14 @@ echo "Put Homebrew location earlier in PATH ..."
 export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
+echo "Installing MySQL, the most popular RDBMS ..."
+  brew install mysql
+
 echo "Installing Postgres, a good open source relational database ..."
   brew install postgres --no-python
+
+echo "Installing MongoDB, a very good NoSQL DBMS ..."
+  brew install mongodb
 
 echo "Installing ack, a good way to search through files ..."
   brew install ack
@@ -44,4 +50,10 @@ echo "Installing ImageMagick, good for cropping and re-sizing images ..."
 echo "Installing QT, used by Capybara Webkit for headless Javascript integration testing ..."
   brew install qt
 
-zsh < <(curl -s https://raw.github.com/thoughtbot/laptop/master/heroku)
+zsh < <(curl -s https://raw.github.com/MarcoSero/The-Setup/master/heroku)
+
+echo -n "Your git name: "
+  git config --global user.name
+echo -n "Your git email: "
+  git config --global user.email
+echo "Change these with \ngit config --global user.name \"Your Name\"' \ngit config --global user.email your@email.com"
