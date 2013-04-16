@@ -14,38 +14,39 @@ To change your login shell run this from a Terminal:
 
     chsh -s /bin/zsh
 
+At the end, if you want you can go back with:
+
+    chsh -s /bin/bash
+
+
 ## Install
 
 Run the script:
 
-    zsh < <(curl -s https://raw.github.com/MarcoSero/The-Setup/master/mac)
+    zsh < <(curl -s https://raw.github.com/JJSaccolo/The-Setup/master/mac)
 
 ## What it sets up
 
 * GitHub SSH-keys
 * Ruby through RVM
+* bundler gem
 * rails gem
 * heroku gem
 * mysql2 gem
 * pg gem
 * mongodb gem
-* foreman gem
-* capistrano gem
+* cocoapods gem
 * Homebrew
 * MySQL
 * Postgres
 * MongoDB
-* ack
-* tmux
-* ImageMagick
-* QT
-* Heroku plugins
 
 It should take less than 30 minutes to install (depends on your machine).
 
 ## Credits
 
-Laptop is funded by [thoughtbot, inc](http://thoughtbot.com/community). I forked the original repo, [laptop](https://github.com/thoughtbot/laptop), to use it with some changes on my own MacBook.
+I forked this repo from [Marco Sero](https://github.com/MarcoSero). 
+Laptop is funded by [thoughtbot, inc](http://thoughtbot.com/community). He (Marco) forked the original repo, [laptop](https://github.com/thoughtbot/laptop), to use it with some changes on his own MacBook.
 
 Thank you to all [the contributors](https://github.com/thoughtbot/laptop/contributors)!
 
