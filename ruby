@@ -18,12 +18,6 @@ echo "Installing the pg gem to talk to Postgres databases ..."
 echo "Installing the mongodb gem to talk to MongoDB databases ..."
   gem install mongodb --no-rdoc --no-ri
 
-echo "Installing the foreman gem for serving your Rails apps in development mode ..."
-  gem install foreman --no-rdoc --no-ri
-
-echo "Installing the capistrano gem, a good way to deploy your apps ..."
-  gem install capistrano --no-rdoc --no-ri
-
 echo "Installing the cocoapods gem, a good way to manage dependencies in Objective-C projects..."
   gem install cocoapods --no-rdoc --no-ri
   pod setup
