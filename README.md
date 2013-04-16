@@ -1,6 +1,6 @@
-# Laptop
+# The Setup
 
-Laptop is a script to set up a Mac OS X laptop for development.
+The Setup is a Laptop fork: Laptop is a script to set up a Mac OS X laptop for development.
 
 ## Requirements
 
