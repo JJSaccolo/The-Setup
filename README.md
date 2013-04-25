@@ -28,6 +28,7 @@ Run the script:
 ## What it sets up
 
 * GitHub SSH-keys
+* Alcatraz
 * Ruby through RVM
 * bundler gem
 * rails gem

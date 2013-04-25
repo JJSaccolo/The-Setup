@@ -7,6 +7,10 @@ echo "Copying public key to clipboard. Paste it into your Github account ..."
   [[ -f ~/.ssh/id_rsa.pub ]] && cat ~/.ssh/id_rsa.pub | pbcopy
   open https://github.com/account/ssh
 
+echo "Installing Alcatraz, the Xcode Package Manager ..."
+  mkdir -p ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins;
+  curl -L http://goo.gl/xfmmt | tar xv -C ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -
+
 echo "Installing RVM (Ruby Version Manager) ..."
   curl -L https://get.rvm.io | bash -s stable --ruby
   echo "
