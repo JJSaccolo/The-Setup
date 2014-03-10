@@ -38,6 +38,9 @@ echo "Installing Postgres, a good open source relational database ..."
 echo "Installing MongoDB, a very good NoSQL DBMS ..."
   brew install mongodb
 
+echo "Installing chisel"
+  brew install chisel
+
 echo -n "Your git name: "
   git config --global user.name
 echo -n "Your git email: "

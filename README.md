@@ -29,6 +29,7 @@ Run the script:
 
 * GitHub SSH-keys
 * Alcatraz
+* Chisel
 * Ruby through RVM
 * bundler gem
 * rails gem
