@@ -8,8 +8,7 @@ echo "Copying public key to clipboard. Paste it into your Github account ..."
   open https://github.com/account/ssh
 
 echo "Installing Alcatraz, the Xcode Package Manager ..."
-  mkdir -p ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins;
-  curl -L http://goo.gl/xfmmt | tar xv -C ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -
+  curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
 
 echo "Installing RVM (Ruby Version Manager) ..."
   curl -L https://get.rvm.io | bash -s stable --ruby
